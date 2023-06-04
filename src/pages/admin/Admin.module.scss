@@ -1,0 +1,21 @@
+.admin {
+  display: flex;
+
+  .navbar {
+    width: 20%;
+    min-height: 90vh;
+  }
+  .content {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar {
+      width: 30%;
+    }
+    .content {
+      width: 70%;
+    }
+  }
+}

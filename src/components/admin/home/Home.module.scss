@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #ccc;
+  // border-bottom: 3px solid var(--light-blue);
+  padding: 1.5rem;
+  background-color: #f5f6fa;
+}
+
+.card1 {
+  border-bottom: 3px solid #b624ff;
+}
+.card2 {
+  border-bottom: 3px solid #1f93ff;
+}
+.card3 {
+  border-bottom: 3px solid orangered;
+}
