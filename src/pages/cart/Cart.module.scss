@@ -9,8 +9,8 @@
     font-size: 1.4rem;
 
     thead {
-      border-top: 2px solid var(--light-blue);
-      border-bottom: 2px solid var(--light-blue);
+      color: white;
+      background-color: var(--color-black);
     }
 
     th {
@@ -19,9 +19,16 @@
 
     th,
     td {
-      vertical-align: top;
-      text-align: left;
+      vertical-align: center;
+      text-align: center;
       padding: 8px;
+
+      .count {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
       &.icons {
         > * {
           margin-right: 5px;
@@ -35,7 +42,7 @@
     }
 
     tr:nth-child(even) {
-      background-color: #eee;
+      background-color: #CCC;
     }
   }
   .summary {
@@ -43,6 +50,13 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
+
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
 
     .card {
       padding: 1rem;

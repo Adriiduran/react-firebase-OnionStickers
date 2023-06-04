@@ -28,7 +28,7 @@ const OrderDetails = () => {
 
   return (
     <>
-      {console.log(order)}
+      {/* {console.log(order)} */}
       <div className={styles.table}>
         <div>
           <Link to="/admin/orders">&larr; Volver a los pedidos</Link>

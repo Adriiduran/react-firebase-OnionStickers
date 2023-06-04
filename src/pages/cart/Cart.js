@@ -101,7 +101,7 @@ const Cart = () => {
                           style={{ width: "100px" }}
                         />
                       </td>
-                      <td>{price}</td>
+                      <td>{price}€</td>
                       <td>
                         <div className={styles.count}>
                           <button
@@ -121,7 +121,7 @@ const Cart = () => {
                           </button>
                         </div>
                       </td>
-                      <td>{(price * cartQuantity).toFixed(2)}</td>
+                      <td>{(price * cartQuantity).toFixed(2)}€</td>
                       <td className={styles.icons}>
                         <FaTrashAlt
                           size={19}
@@ -145,7 +145,7 @@ const Cart = () => {
                 <br />
                 <Card cardClass={styles.card}>
                   <p>
-                    <b> {`Cart item(s): ${cartTotalQuantity}`}</b>
+                    <b> {`Producto(s) en el carrito: ${cartTotalQuantity}`}</b>
                   </p>
                   <div className={styles.text}>
                     <h4>Subtotal:</h4>
