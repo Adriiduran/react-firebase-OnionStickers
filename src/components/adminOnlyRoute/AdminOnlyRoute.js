@@ -10,13 +10,13 @@ const AdminOnlyRoute = ({ children }) => {
     return children;
   }
   return (
-    <section style={{ height: "80vh" }}>
+    <section style={{ height: "90vh" }}>
       <div className="container">
-        <h2>Permission Denied.</h2>
-        <p>This page can only be view by an Admin user.</p>
+        <h2>Permiso Denegado.</h2>
+        <p>Esta página solo la puede ver un administrador.</p>
         <br />
         <Link to="/">
-          <button className="--btn">&larr; Back To Home</button>
+          <button className="--btn">&larr; Volver a Inicio</button>
         </Link>
       </div>
     </section>
