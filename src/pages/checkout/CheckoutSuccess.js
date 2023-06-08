@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 
 const CheckoutSuccess = () => {
   return (
-    <section>
+    <section style={{
+      minHeight: "90vh"
+    }}>
       <div className="container">
         <h2>Compra relizada con éxito</h2>
         <p>Gracias por tu compra</p>
