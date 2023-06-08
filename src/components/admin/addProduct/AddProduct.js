@@ -20,7 +20,8 @@ const categories = [
   { id: 2, name: "Peliculas/Series" },
   { id: 3, name: "Anime" },
   { id: 4, name: "Musica" },
-  { id: 5, name: "Programación"}
+  { id: 5, name: "Programación"},
+  { id: 5, name: "Motos"}
 ];
 
 const initialState = {
