@@ -50,7 +50,7 @@ const Pagination = ({
         onClick={paginatePrev}
         className={currentPage === pageNumbers[0] ? `${styles.hidden}` : null}
       >
-        Anterior
+        {"<"}
       </li>
 
       {pageNumbers.map((number) => {
@@ -75,7 +75,7 @@ const Pagination = ({
             : null
         }
       >
-        Siguiente
+        {">"}
       </li>
 
       <p>
