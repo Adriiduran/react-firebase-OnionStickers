@@ -58,7 +58,7 @@ const Product = () => {
             <ProductList products={products} />
           )}
           <div className={styles.icon} onClick={toggleFilter}>
-            <FaCogs size={20} style={{color: "var(--color-primary)"}} />
+            <FaCogs size={18} style={{color: "var(--color-primary)"}} />
             <p>
               <b>{showFilter}</b>
             </p>
