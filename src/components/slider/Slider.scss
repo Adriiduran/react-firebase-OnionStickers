@@ -1,9 +1,17 @@
 .slider {
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     position: relative;
     overflow: hidden;
     background-color: var(--color-black);
+
+    @media screen and (min-width: 600px) {
+      height: 80vh;
+    }
+  
+    @media screen and (min-width: 1100px) {
+      height: 80vh;
+    }
   }
   
   .slide {
@@ -30,7 +38,7 @@
     top: 50%;
     left: 50%;
     opacity: 0;
-    width: 60%;
+    width: 65%;
     height: 40%;
     padding: 3rem;
     display: flex;
@@ -43,7 +51,7 @@
     animation: slide-up 1s ease 0.5s;
     animation-fill-mode: forwards;
     h2 {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
   
@@ -107,6 +115,10 @@
   @media screen and (min-width: 600px) {
     .content {
       width: 50%;
+
+      h2 {
+        font-size: 3rem;
+      }
     }
   }
 
@@ -114,6 +126,10 @@
     .content {
       width: 30%;
       height: 40%;
+    }
+
+    h2 {
+      font-size: 3rem;
     }
   }
   
