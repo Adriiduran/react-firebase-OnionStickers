@@ -73,7 +73,7 @@ const ProductFilter = () => {
           {allBrands.map((brand, index) => {
             return (
               <option key={index} value={brand}>
-                {brand}
+                {brand === "All" ? "Todo" : brand}
               </option>
             );
           })}
