@@ -23,11 +23,11 @@ const ProductFilter = () => {
   const dispatch = useDispatch();
 
   const allCategories = [
-    "Todo",
+    "All",
     ...new Set(products.map((product) => product.category)),
   ];
   const allBrands = [
-    "Todo",
+    "All",
     ...new Set(products.map((product) => product.brand)),
   ];
 
@@ -62,7 +62,7 @@ const ProductFilter = () => {
               className={`${category}` === cat ? `${styles.active}` : null}
               onClick={() => filterProducts(cat)}
             >
-              &#8250; {cat}
+              &#8250; {cat === "All" ? "Todo" : cat}
             </button>
           );
         })}
