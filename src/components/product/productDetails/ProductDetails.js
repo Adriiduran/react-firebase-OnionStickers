@@ -120,7 +120,7 @@ const ProductDetails = () => {
                       </span>
                       <br />
                       <span>
-                        <b>by: {userName}</b>
+                        <b>por: {userName}</b>
                       </span>
                     </div>
                   );
